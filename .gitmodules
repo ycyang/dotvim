@@ -1,3 +1,9 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
+[submodule "bundle/nerdtree_ack"]
+	path = bundle/nerdtree_ack
+	url = https://github.com/vim-scripts/NERD_Tree-and-ack.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git

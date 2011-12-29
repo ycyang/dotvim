@@ -1,10 +1,18 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
-syntax on
+set t_Co=256            "using 256 colors
+colorscheme desert256   "desert256 color scheme  
+syntax on               "syntax highlighting
+set hlsearch            "search highlighting
+
+"previous tab"
+nmap <S-Left> :tabp<CR> 
+"next tab"
+nmap <S-Right> :tabn<CR>
 
 "NERDTreeToggle"
-:map <F2> :NERDTreeToggle<CR> 
+nmap <F2> :NERDTreeToggle<CR> 
 
 "TagbarToggle"
-:map <F3> :TagbarToggle<CR>
+nmap <F3> :TagbarToggle<CR>

@@ -1,21 +1,17 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
-" ===============================================
 " Replace tab with 4 spaces
-" ===============================================
 set tabstop=4
 set expandtab
 %retab
 
-" ===============================================
-" Color settings
-" ===============================================
-set nu                  "show line number
-set t_Co=256            "using 256 colors
-colorscheme desert
-syntax on               "syntax highlighting
-set hlsearch            "search highlighting
+set t_Co=256            " using 256 colors
+colorscheme desert      " desert colorscheme
+syntax on               " syntax highlighting
+set incsearch           " Incremental search
+set hlsearch            " search highlighting
+set nu                  " show line number
 
 " ===============================================
 " Tab navigation

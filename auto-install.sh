@@ -18,6 +18,6 @@ git clone git://github.com/ycyang/dotvim.git "$VIMHOME"
 cd "$VIMHOME"
 git submodule update --init
 
-ls -s ~/.vim/vimrc ~/.vimrc
+ln -s ~/.vim/vimrc ~/.vimrc
 
 echo "ycyang's vimrc is installed."

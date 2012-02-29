@@ -12,6 +12,7 @@ syntax on               " syntax highlighting
 set incsearch           " Incremental search
 set hlsearch            " search highlighting
 set nu                  " show line number
+set foldmethod=indent   " folding by indent
 
 " ===============================================
 " Tab navigation
